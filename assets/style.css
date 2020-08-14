@@ -1,0 +1,80 @@
+*{
+    font-family: 'Permanent Marker', cursive;
+}
+
+body {
+    background-color: plum;
+}
+
+.navbar {
+    width: 96%;
+    margin-left: 2%;    
+}
+
+h1 {
+    padding-top: 10px;
+    text-align: center;
+    font-family:'Permanent Marker', cursive;
+}
+
+.container {
+    width: 75%;
+    margin-top: 10%;
+    margin-left: 20%; 
+}
+
+h2 {
+    color: cornflowerblue;
+    text-align: center;
+}
+
+
+#main-bio,
+#bio-image {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#main-bio {
+    width: 75%;
+    
+}
+#main-bio p {
+    text-align: center;
+}
+
+#bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+
+.form-group {
+    background-color: cornflowerblue;
+    padding: 10px;
+    margin: auto;
+    width: 50%;
+    border: 2px solid black;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: center;
+}
+
+.form-group input {
+    text-align: center;
+    border: 1px solid black; 
+}
+
+.w3-row-padding img{
+    position: relative;
+    margin-left: 20%;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}

@@ -20,7 +20,7 @@ h1 {
 .container {
     width: 75%;
     margin-top: 10%;
-    margin-left: 20%; 
+    margin-left: 20%;
 }
 
 h2 {
@@ -34,25 +34,30 @@ h2 {
     float: left;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 #main-bio {
     width: 75%;
     
 }
+
+#main-bio {
+    border: solid 5px;
+    border-color: cornflowerblue; 
+    background-color: white;
+    padding: 10px;
+
+}
+
 #main-bio p {
     text-align: center;
 }
+
 
 #bio-image {
     width: 200px;
     height: 200px;
     margin-right: 20px;
 }
+
 
 
 .form-group {
@@ -62,8 +67,7 @@ h2 {
     width: 50%;
     border: 2px solid black;
     text-align: center;
-    font-weight: bold;
-    vertical-align: center;
+    font-weight: bold
 }
 
 .form-group input {

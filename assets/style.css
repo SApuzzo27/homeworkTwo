@@ -69,12 +69,11 @@ h2 {
 }
 
 .w3-row-padding {
-    margin: auto;
+    align-content: center;
 }
 
 .w3-row-padding img{
     position: relative;
-    margin-left: 20%;
     height: 200px;
     width: 200px;
     padding: 20px;
